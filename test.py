@@ -30,6 +30,8 @@ class TestCalc(unittest.TestCase):
         result = calc.divide(30,5)
         self.assertEqual(result, 6)
 
+print("class defined")
+
 if (__name__ == "__main__"):
     unittest.main()
     print("I am here")
