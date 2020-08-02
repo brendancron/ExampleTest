@@ -33,6 +33,7 @@ class TestCalc(unittest.TestCase):
 print("class defined")
 
 if (__name__ == "__main__"):
+    print("hey jude")
     unittest.main()
     print("I am here")
 
