@@ -1,3 +1,6 @@
+print("less worries")
+
+
 import sys
 sys.path.insert(1, '../code')
 import code as calc
