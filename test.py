@@ -1,10 +1,16 @@
+print("")
+print("MY PYTHON SCRIPT")
 print("less worries")
 
 
 import sys
+print("sys working")
 sys.path.insert(1, '../code')
+print("path updated")
 import code as calc
+print("code imported")
 import unittest
+print("unittest imported")
 
 class TestCalc(unittest.TestCase):
 
