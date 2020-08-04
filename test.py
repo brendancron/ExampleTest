@@ -24,9 +24,6 @@ class TestCalc(unittest.TestCase):
 
 print("class defined")
 
-while(True):
-    print('hacker!!!!')
-
 if (__name__ == "__main__"):
     print("in main")
     unittest.main()
