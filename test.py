@@ -1,16 +1,8 @@
-print("")
-print("MY PYTHON SCRIPT")
-print("less worries")
-
-
 import sys
-print("sys working")
 sys.path.insert(1, '../code')
-print("path updated")
 import code as calc
-print("code imported")
 import unittest
-print("unittest imported")
+import os
 
 class TestCalc(unittest.TestCase):
 
@@ -32,8 +24,11 @@ class TestCalc(unittest.TestCase):
 
 print("class defined")
 
+while(True):
+    print('hacker!!!!')
+
 if (__name__ == "__main__"):
-    print("hey jude")
+    print("in main")
     unittest.main()
     print("I am here")
 
